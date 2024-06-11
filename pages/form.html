@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="..//style/form.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Form</h1>
+      <form action="" class="form">
+        <input id="fName" type="text" placeholder="First Name" required />
+        <input id="lName" type="text" placeholder="Last Name" required />
+        <input id="age" type="number" min="18" placeholder="Age" required />
+        <input id="imgUrl" type="text" placeholder="Img Url" required />
+        <select id="status" name="status" id="status">
+          <option value="" disabled selected>Status</option>
+          <option value="online">Online</option>
+          <option value="offline">Offline</option>
+        </select>
+        <button type="submit" class="button">Submit</button>
+      </form>
+    </div>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
